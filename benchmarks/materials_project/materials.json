@@ -1,0 +1,151 @@
+{
+  "name": "Materials Project 20-material subset",
+  "source": "Structures from the Materials Project (https://materialsproject.org), CC BY 4.0.",
+  "properties": {
+    "bandgap": "Compute the bandgap",
+    "magnetic_moment": "Calculate the total magnetic moment",
+    "formation_energy": "Compute the heat of formation"
+  },
+  "materials": [
+    {
+      "material_id": "mp-21075",
+      "formula": "HfC",
+      "electronic_class": "metal",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-21075.cif"
+    },
+    {
+      "material_id": "mp-11500",
+      "formula": "MnNi",
+      "electronic_class": "metal",
+      "magnetic_ordering": "FM",
+      "structure": "structures/mp-11500.cif"
+    },
+    {
+      "material_id": "mp-510403",
+      "formula": "GdSb",
+      "electronic_class": "metal",
+      "magnetic_ordering": "FM",
+      "structure": "structures/mp-510403.cif"
+    },
+    {
+      "material_id": "mp-1885",
+      "formula": "AlIr",
+      "electronic_class": "metal",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-1885.cif"
+    },
+    {
+      "material_id": "mp-10910",
+      "formula": "Al2Ru",
+      "electronic_class": "metal",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-10910.cif"
+    },
+    {
+      "material_id": "mp-2730",
+      "formula": "HgTe",
+      "electronic_class": "small gap (SOC)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-2730.cif"
+    },
+    {
+      "material_id": "mp-1883",
+      "formula": "SnTe",
+      "electronic_class": "small gap (TCI)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-1883.cif"
+    },
+    {
+      "material_id": "mp-5967",
+      "formula": "TiCoSb",
+      "electronic_class": "small gap (half-Heusler)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-5967.cif"
+    },
+    {
+      "material_id": "mp-762",
+      "formula": "PtS2",
+      "electronic_class": "small gap (TMD)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-762.cif"
+    },
+    {
+      "material_id": "mp-1634",
+      "formula": "MoSe2",
+      "electronic_class": "small gap (TMD)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-1634.cif"
+    },
+    {
+      "material_id": "mp-2490",
+      "formula": "GaP",
+      "electronic_class": "medium gap (III-V)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-2490.cif"
+    },
+    {
+      "material_id": "mp-23231",
+      "formula": "AgBr",
+      "electronic_class": "medium gap (DFT undershoot)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-23231.cif"
+    },
+    {
+      "material_id": "mp-361",
+      "formula": "Cu2O",
+      "electronic_class": "medium gap (cuprite)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-361.cif"
+    },
+    {
+      "material_id": "mp-985829",
+      "formula": "HfS2",
+      "electronic_class": "medium gap (TMD)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-985829.cif"
+    },
+    {
+      "material_id": "mp-1779",
+      "formula": "YbTe",
+      "electronic_class": "medium gap (4f)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-1779.cif"
+    },
+    {
+      "material_id": "mp-19009",
+      "formula": "NiO",
+      "electronic_class": "large gap (Mott)",
+      "magnetic_ordering": "AFM",
+      "structure": "structures/mp-19009.cif"
+    },
+    {
+      "material_id": "mp-856",
+      "formula": "SnO2",
+      "electronic_class": "large gap (rutile)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-856.cif"
+    },
+    {
+      "material_id": "mp-3614",
+      "formula": "KTaO3",
+      "electronic_class": "large gap (perovskite)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-3614.cif"
+    },
+    {
+      "material_id": "mp-2741",
+      "formula": "CaF2",
+      "electronic_class": "large gap (fluorite)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-2741.cif"
+    },
+    {
+      "material_id": "mp-22939",
+      "formula": "BiClO",
+      "electronic_class": "large gap (oxyhalide)",
+      "magnetic_ordering": "NM",
+      "structure": "structures/mp-22939.cif"
+    }
+  ]
+}

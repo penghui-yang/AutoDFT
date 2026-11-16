@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.log
+runs/
+
+# Environment and secrets
+.env
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# VASP pseudopotentials are licensed; never commit them
+POTCAR

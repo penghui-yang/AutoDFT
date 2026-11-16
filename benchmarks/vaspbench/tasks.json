@@ -1,0 +1,318 @@
+{
+  "name": "VASPBench",
+  "description": "34 DFT tasks derived from the official VASP documentation (VASP Wiki examples). Each task provides a target structure (structure.cif) and a natural-language objective (task.txt) only.",
+  "tasks": [
+    {
+      "id": 1,
+      "dir": "Adsorption_of_H2O_on_TiO2",
+      "title": "Adsorption of H2O on TiO2",
+      "source_url": "https://www.vasp.at/wiki/index.php/Adsorption_of_H2O_on_TiO2",
+      "calculation_types": [
+        "Ionic relaxation",
+        "Molecular dynamics"
+      ]
+    },
+    {
+      "id": 2,
+      "dir": "Alpha-AlF3",
+      "title": "Alpha-AlF3",
+      "source_url": "https://www.vasp.at/wiki/index.php/Alpha-AlF3",
+      "calculation_types": [
+        "DOS"
+      ]
+    },
+    {
+      "id": 3,
+      "dir": "Alpha-SiO2",
+      "title": "Alpha-SiO2",
+      "source_url": "https://www.vasp.at/wiki/index.php/Alpha-SiO2",
+      "calculation_types": [
+        "DOS"
+      ]
+    },
+    {
+      "id": 4,
+      "dir": "Bandgap_of_Si_using_different_DFT+HF_methods",
+      "title": "Bandgap of Si using different DFT+HF methods",
+      "source_url": "https://www.vasp.at/wiki/index.php/Bandgap_of_Si_using_different_DFT%2BHF_methods",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 5,
+      "dir": "Beta-tin_Si",
+      "title": "Beta-tin Si",
+      "source_url": "https://www.vasp.at/wiki/index.php/Beta-tin_Si",
+      "calculation_types": [
+        "Volume relaxation"
+      ]
+    },
+    {
+      "id": 6,
+      "dir": "Calculate_U_for_LSDA+U",
+      "title": "Calculate U for LSDA+U",
+      "source_url": "https://www.vasp.at/wiki/index.php/Calculate_U_for_LSDA%2BU",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 7,
+      "dir": "Cd_Si_relaxation",
+      "title": "Cd Si relaxation",
+      "source_url": "https://www.vasp.at/wiki/index.php/Cd_Si_relaxation",
+      "calculation_types": [
+        "Ionic relaxation"
+      ]
+    },
+    {
+      "id": 8,
+      "dir": "Cd_Si_volume_relaxation",
+      "title": "Cd Si volume relaxation",
+      "source_url": "https://www.vasp.at/wiki/index.php/Cd_Si_volume_relaxation",
+      "calculation_types": [
+        "Volume relaxation"
+      ]
+    },
+    {
+      "id": 9,
+      "dir": "CO",
+      "title": "CO",
+      "source_url": "https://www.vasp.at/wiki/index.php/CO",
+      "calculation_types": [
+        "Ionic relaxation"
+      ]
+    },
+    {
+      "id": 10,
+      "dir": "CO_partial_DOS",
+      "title": "CO partial DOS",
+      "source_url": "https://www.vasp.at/wiki/index.php/CO_partial_DOS",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 11,
+      "dir": "CO_vibration",
+      "title": "CO vibration",
+      "source_url": "https://www.vasp.at/wiki/index.php/CO_vibration",
+      "calculation_types": [
+        "Phonon DFPT"
+      ]
+    },
+    {
+      "id": 12,
+      "dir": "Constraining_local_magnetic_moments",
+      "title": "Constraining local magnetic moments",
+      "source_url": "https://www.vasp.at/wiki/index.php/Constraining_local_magnetic_moments",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 13,
+      "dir": "Constraining_the_local_magnetic_moments",
+      "title": "Constraining the local magnetic moments",
+      "source_url": "https://www.vasp.at/wiki/index.php/Constraining_the_local_magnetic_moments",
+      "calculation_types": [
+        "Spin orbit"
+      ]
+    },
+    {
+      "id": 14,
+      "dir": "Estimation_of_J_magnetic_coupling",
+      "title": "Estimation of J magnetic coupling",
+      "source_url": "https://www.vasp.at/wiki/index.php/Estimation_of_J_magnetic_coupling",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 15,
+      "dir": "Fcc_Ni",
+      "title": "Fcc Ni",
+      "source_url": "https://www.vasp.at/wiki/index.php/Fcc_Ni",
+      "calculation_types": [
+        "Static SCF",
+        "DOS"
+      ]
+    },
+    {
+      "id": 16,
+      "dir": "Fcc_Ni_(revisited)",
+      "title": "Fcc Ni (revisited)",
+      "source_url": "https://www.vasp.at/wiki/index.php/Fcc_Ni_(revisited)",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 17,
+      "dir": "Fcc_Ni_DOS",
+      "title": "Fcc Ni DOS",
+      "source_url": "https://www.vasp.at/wiki/index.php/Fcc_Ni_DOS",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 18,
+      "dir": "Fcc_Si",
+      "title": "Fcc Si",
+      "source_url": "https://www.vasp.at/wiki/index.php/Fcc_Si",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 19,
+      "dir": "Fcc_Si_DOS",
+      "title": "Fcc Si DOS",
+      "source_url": "https://www.vasp.at/wiki/index.php/Fcc_Si_DOS",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 20,
+      "dir": "Graphite_interlayer_distance",
+      "title": "Graphite interlayer distance",
+      "source_url": "https://www.vasp.at/wiki/index.php/Graphite_interlayer_distance",
+      "calculation_types": [
+        "Volume relaxation"
+      ]
+    },
+    {
+      "id": 21,
+      "dir": "H2O",
+      "title": "H2O",
+      "source_url": "https://www.vasp.at/wiki/index.php/H2O",
+      "calculation_types": [
+        "Ionic relaxation"
+      ]
+    },
+    {
+      "id": 22,
+      "dir": "H2O_vibration",
+      "title": "H2O vibration",
+      "source_url": "https://www.vasp.at/wiki/index.php/H2O_vibration",
+      "calculation_types": [
+        "Phonon DFPT"
+      ]
+    },
+    {
+      "id": 23,
+      "dir": "Including_the_Spin-Orbit_Coupling",
+      "title": "Including the Spin-Orbit Coupling",
+      "source_url": "https://www.vasp.at/wiki/index.php/Including_the_Spin-Orbit_Coupling",
+      "calculation_types": [
+        "Spin orbit"
+      ]
+    },
+    {
+      "id": 24,
+      "dir": "Ionic_contributions_to_the_frequency_dependent_dielectric_function_of_NaCl",
+      "title": "Ionic contributions to the frequency dependent dielectric function of NaCl",
+      "source_url": "https://www.vasp.at/wiki/index.php/Ionic_contributions_to_the_frequency_dependent_dielectric_function_of_NaCl",
+      "calculation_types": [
+        "Dielectric optical",
+        "Phonon DFPT",
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 25,
+      "dir": "Ni_100_surface_DOS",
+      "title": "Ni 100 surface DOS",
+      "source_url": "https://www.vasp.at/wiki/index.php/Ni_100_surface_DOS",
+      "calculation_types": [
+        "Static SCF",
+        "DOS"
+      ]
+    },
+    {
+      "id": 26,
+      "dir": "Ni_111_surface_relaxation",
+      "title": "Ni 111 surface relaxation",
+      "source_url": "https://www.vasp.at/wiki/index.php/Ni_111_surface_relaxation",
+      "calculation_types": [
+        "Ionic relaxation",
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 27,
+      "dir": "NiO_LSDA+U",
+      "title": "NiO LSDA+U",
+      "source_url": "https://www.vasp.at/wiki/index.php/NiO_LSDA%2BU",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 28,
+      "dir": "Nucleophile_Substitution_CH3Cl_-_Standard_MD",
+      "title": "Nucleophile Substitution CH3Cl - Standard MD",
+      "source_url": "https://www.vasp.at/wiki/index.php/Nucleophile_Substitution_CH3Cl_-_Standard_MD",
+      "calculation_types": [
+        "Molecular dynamics"
+      ]
+    },
+    {
+      "id": 29,
+      "dir": "O_atom",
+      "title": "O atom",
+      "source_url": "https://www.vasp.at/wiki/index.php/O_atom",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 30,
+      "dir": "O_atom_spinpolarized",
+      "title": "O atom spinpolarized",
+      "source_url": "https://www.vasp.at/wiki/index.php/O_atom_spinpolarized",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 31,
+      "dir": "O_atom_spinpolarized_low_symmetry",
+      "title": "O atom spinpolarized low symmetry",
+      "source_url": "https://www.vasp.at/wiki/index.php/O_atom_spinpolarized_low_symmetry",
+      "calculation_types": [
+        "Static SCF"
+      ]
+    },
+    {
+      "id": 32,
+      "dir": "O_dimer",
+      "title": "O dimer",
+      "source_url": "https://www.vasp.at/wiki/index.php/O_dimer",
+      "calculation_types": [
+        "Ionic relaxation"
+      ]
+    },
+    {
+      "id": 33,
+      "dir": "Spin-orbit_coupling_in_a_Ni_monolayer",
+      "title": "Spin-orbit coupling in a Ni monolayer",
+      "source_url": "https://www.vasp.at/wiki/index.php/Spin-orbit_coupling_in_a_Ni_monolayer",
+      "calculation_types": [
+        "Spin orbit"
+      ]
+    },
+    {
+      "id": 34,
+      "dir": "XANES_in_Diamond",
+      "title": "XANES in Diamond",
+      "source_url": "https://www.vasp.at/wiki/index.php/XANES_in_Diamond",
+      "calculation_types": [
+        "XAS XANES"
+      ]
+    }
+  ]
+}
